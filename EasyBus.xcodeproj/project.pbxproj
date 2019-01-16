@@ -1,0 +1,1540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34101D6A218FEEFD002AB2FC /* FoldableTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34101D69218FEEFD002AB2FC /* FoldableTitleView.swift */; };
+		34101D7021914F24002AB2FC /* KLBottomCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34101D6F21914F24002AB2FC /* KLBottomCardTableViewController.swift */; };
+		34101D7221914F6C002AB2FC /* TimeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34101D7121914F6C002AB2FC /* TimeTableTableViewController.swift */; };
+		34101D76219167BF002AB2FC /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34101D75219167BE002AB2FC /* TimeTableView.swift */; };
+		34101D7A2191942C002AB2FC /* KLWebViewBottomCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34101D792191942C002AB2FC /* KLWebViewBottomCardViewController.swift */; };
+		34101D7C21919758002AB2FC /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34101D7B21919758002AB2FC /* UINavigationItem.swift */; };
+		34101D8421942586002AB2FC /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34101D8321942586002AB2FC /* NotificationCenter.framework */; };
+		34101D8721942586002AB2FC /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34101D8621942586002AB2FC /* TodayViewController.swift */; };
+		34101D8A21942586002AB2FC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34101D8821942586002AB2FC /* MainInterface.storyboard */; };
+		34101D9621942A19002AB2FC /* EtaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34101D9521942A19002AB2FC /* EtaTableViewCell.swift */; };
+		34101DBD21942C90002AB2FC /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305742170CFFE00BD98BA /* NSLayoutConstraint.swift */; };
+		34101DBE21942C94002AB2FC /* Layoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305762170CFFE00BD98BA /* Layoutable.swift */; };
+		34101DBF21942C99002AB2FC /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305772170CFFE00BD98BA /* UITableView.swift */; };
+		34101DC021942CC2002AB2FC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305732170CFFE00BD98BA /* UIView.swift */; };
+		34101DC121943004002AB2FC /* StarredStopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFCC542173759300AFFAE1 /* StarredStopModel.swift */; };
+		34101DC221943165002AB2FC /* KMBResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAA6CF2170D6D900DE1C01 /* KMBResultModel.swift */; };
+		34101DC32194319B002AB2FC /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305992170CFFE00BD98BA /* DateHelper.swift */; };
+		341CC8A321787C5E008CFCD2 /* UserSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CC8A221787C5E008CFCD2 /* UserSettingViewModel.swift */; };
+		341CC8A521788ED2008CFCD2 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CC8A421788ED2008CFCD2 /* KeyboardView.swift */; };
+		34579B672186B9B200FF12F0 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34579B662186B9B200FF12F0 /* DonateViewController.swift */; };
+		34579B69218800CA00FF12F0 /* StarredCNStopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34579B68218800CA00FF12F0 /* StarredCNStopModel.swift */; };
+		34579B6B2188012100FF12F0 /* CNStarredStopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34579B6A2188012100FF12F0 /* CNStarredStopViewModel.swift */; };
+		349C02E9217592ED007EA9F1 /* EtaAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C02E8217592ED007EA9F1 /* EtaAttribute.swift */; };
+		349C02EB21759710007EA9F1 /* EasyBusFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C02EA21759710007EA9F1 /* EasyBusFont.swift */; };
+		6B1295A32180C31000DE076B /* StopMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1295A22180C31000DE076B /* StopMonitorView.swift */; };
+		6B23055D2170CB1F00BD98BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23055C2170CB1F00BD98BA /* AppDelegate.swift */; };
+		6B2305652170CB1F00BD98BA /* EasyBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305632170CB1F00BD98BA /* EasyBus.xcdatamodeld */; };
+		6B2305672170CB2200BD98BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2305662170CB2200BD98BA /* Assets.xcassets */; };
+		6B23056A2170CB2200BD98BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2305682170CB2200BD98BA /* LaunchScreen.storyboard */; };
+		6B23059A2170CFFE00BD98BA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305732170CFFE00BD98BA /* UIView.swift */; };
+		6B23059B2170CFFE00BD98BA /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305742170CFFE00BD98BA /* NSLayoutConstraint.swift */; };
+		6B23059C2170CFFE00BD98BA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305752170CFFE00BD98BA /* UIColor.swift */; };
+		6B23059D2170CFFE00BD98BA /* Layoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305762170CFFE00BD98BA /* Layoutable.swift */; };
+		6B23059E2170CFFE00BD98BA /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305772170CFFE00BD98BA /* UITableView.swift */; };
+		6B23059F2170CFFE00BD98BA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305782170CFFE00BD98BA /* String.swift */; };
+		6B2305A02170CFFE00BD98BA /* KLAnimatableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23057A2170CFFE00BD98BA /* KLAnimatableProtocol.swift */; };
+		6B2305A12170CFFE00BD98BA /* KLTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23057C2170CFFE00BD98BA /* KLTableViewController.swift */; };
+		6B2305A22170CFFE00BD98BA /* KLCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23057D2170CFFE00BD98BA /* KLCollectionViewController.swift */; };
+		6B2305A32170CFFE00BD98BA /* BottomCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23057E2170CFFE00BD98BA /* BottomCardViewController.swift */; };
+		6B2305A42170CFFE00BD98BA /* KLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23057F2170CFFE00BD98BA /* KLViewController.swift */; };
+		6B2305A52170CFFE00BD98BA /* KLImagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305812170CFFE00BD98BA /* KLImagePageViewController.swift */; };
+		6B2305A62170CFFE00BD98BA /* KLImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305822170CFFE00BD98BA /* KLImageViewController.swift */; };
+		6B2305A72170CFFE00BD98BA /* KLPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305832170CFFE00BD98BA /* KLPickerViewController.swift */; };
+		6B2305A82170CFFE00BD98BA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305852170CFFE00BD98BA /* NetworkManager.swift */; };
+		6B2305A92170CFFE00BD98BA /* ValidatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305862170CFFE00BD98BA /* ValidatorManager.swift */; };
+		6B2305AA2170CFFE00BD98BA /* SharingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305872170CFFE00BD98BA /* SharingManager.swift */; };
+		6B2305AB2170CFFE00BD98BA /* KLAlertViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305882170CFFE00BD98BA /* KLAlertViewManager.swift */; };
+		6B2305AC2170CFFE00BD98BA /* VersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305892170CFFE00BD98BA /* VersionManager.swift */; };
+		6B2305AD2170CFFE00BD98BA /* iOSMessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23058A2170CFFE00BD98BA /* iOSMessageManager.swift */; };
+		6B2305AE2170CFFE00BD98BA /* ScreenSizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23058B2170CFFE00BD98BA /* ScreenSizeManager.swift */; };
+		6B2305AF2170CFFE00BD98BA /* PaperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23058D2170CFFE00BD98BA /* PaperSwitch.swift */; };
+		6B2305B02170CFFE00BD98BA /* LargeTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23058E2170CFFE00BD98BA /* LargeTitleTableViewCell.swift */; };
+		6B2305B12170CFFE00BD98BA /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23058F2170CFFE00BD98BA /* LoadingOverlay.swift */; };
+		6B2305B22170CFFE00BD98BA /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305902170CFFE00BD98BA /* PaddingTextField.swift */; };
+		6B2305B32170CFFE00BD98BA /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305912170CFFE00BD98BA /* CircleImageView.swift */; };
+		6B2305B42170CFFE00BD98BA /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305932170CFFE00BD98BA /* GenericTableViewController.swift */; };
+		6B2305B52170CFFE00BD98BA /* KLActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305952170CFFE00BD98BA /* KLActivityIndicatorShape.swift */; };
+		6B2305B62170CFFE00BD98BA /* KLActivityIndicatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305962170CFFE00BD98BA /* KLActivityIndicatorType.swift */; };
+		6B2305B72170CFFE00BD98BA /* KLActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305972170CFFE00BD98BA /* KLActivityIndicatorAnimationDelegate.swift */; };
+		6B2305B82170CFFE00BD98BA /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305992170CFFE00BD98BA /* DateHelper.swift */; };
+		6B2305BA2170D04500BD98BA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305B92170D04500BD98BA /* TabBarViewController.swift */; };
+		6B262DA8217F595A00F7E3D3 /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B262DA7217F595A00F7E3D3 /* GoogleMapView.swift */; };
+		6B2878BC2178E2A600A2F4A8 /* kmbData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B2878BB2178E2A600A2F4A8 /* kmbData.json */; };
+		6B2878BE217A0FE300A2F4A8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2878BD217A0FE300A2F4A8 /* SplashViewController.swift */; };
+		6B2878C0217A3ECB00A2F4A8 /* EaasyBusColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2878BF217A3ECB00A2F4A8 /* EaasyBusColor.swift */; };
+		6B58153421873720002526E2 /* CityBusStarredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B58153321873720002526E2 /* CityBusStarredViewController.swift */; };
+		6B58153821875442002526E2 /* CityBusNearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B58153721875442002526E2 /* CityBusNearbyViewController.swift */; };
+		6B5993442184B89E00DC0C2D /* CityBusSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5993432184B89E00DC0C2D /* CityBusSearchViewController.swift */; };
+		6B59934E2184C5F100DC0C2D /* CityBusServiceRsultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59934D2184C5F100DC0C2D /* CityBusServiceRsultViewController.swift */; };
+		6B59935121853D1500DC0C2D /* CityBusStopResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59935021853D1500DC0C2D /* CityBusStopResultViewController.swift */; };
+		6B59935321853DB300DC0C2D /* CNBusStopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59935221853DB300DC0C2D /* CNBusStopViewModel.swift */; };
+		6B59935721855D8100DC0C2D /* CNBusEtaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59935621855D8100DC0C2D /* CNBusEtaModel.swift */; };
+		6B599363218601B800DC0C2D /* CNBusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B599362218601B800DC0C2D /* CNBusModel.swift */; };
+		6B5993652186031100DC0C2D /* CNBusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5993642186031000DC0C2D /* CNBusViewModel.swift */; };
+		6B63AC3221760336000CD919 /* EtaMonitorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AC3121760336000CD919 /* EtaMonitorManager.swift */; };
+		6B63AC3421760A21000CD919 /* UserSettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AC3321760A21000CD919 /* UserSettingManager.swift */; };
+		6B63AC392176153B000CD919 /* PremissionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AC382176153B000CD919 /* PremissionTableViewCell.swift */; };
+		6B63AC3B21761646000CD919 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AC3A21761646000CD919 /* AppManager.swift */; };
+		6B63AC3D21761C5F000CD919 /* ServerAdminModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AC3C21761C5F000CD919 /* ServerAdminModel.swift */; };
+		6B63AC3F2176468A000CD919 /* SettingBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AC3E2176468A000CD919 /* SettingBaseTableViewCell.swift */; };
+		6B63AC432176FC4B000CD919 /* LocationDistanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AC422176FC4B000CD919 /* LocationDistanceHelper.swift */; };
+		6B63AC47217717AB000CD919 /* FirebaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AC46217717AB000CD919 /* FirebaseAnalytics.swift */; };
+		6B67BF7221908F9900BD1DFA /* KMBTrafficNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B67BF7121908F9900BD1DFA /* KMBTrafficNewsController.swift */; };
+		6B67BF742190902200BD1DFA /* KMBTrafficNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B67BF732190902200BD1DFA /* KMBTrafficNewsModel.swift */; };
+		6B6856DB217C301500304159 /* StarStyleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6856DA217C301500304159 /* StarStyleTableViewController.swift */; };
+		6B6856DD217C31D900304159 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6856DC217C31D900304159 /* NearbyViewController.swift */; };
+		6B6856E0217C33EF00304159 /* KLCustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6856DF217C33EF00304159 /* KLCustomTableViewController.swift */; };
+		6B6856E4217C459500304159 /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6856E3217C459500304159 /* RemindView.swift */; };
+		6B6856E6217C4C9B00304159 /* ButtonRemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6856E5217C4C9B00304159 /* ButtonRemindView.swift */; };
+		6B6856E8217C714D00304159 /* UserLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6856E7217C714D00304159 /* UserLocationManager.swift */; };
+		6B6856EA217C809300304159 /* NearbyStopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6856E9217C809300304159 /* NearbyStopViewModel.swift */; };
+		6B751BF821A2F94E00B657AD /* GenericBottomCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B751BF721A2F94E00B657AD /* GenericBottomCardViewController.swift */; };
+		6B7630572195B1CB00609511 /* CityBusWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7630562195B1CB00609511 /* CityBusWebViewController.swift */; };
+		6B7C527021A3169500E2B5AD /* SmartAnalyzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C526F21A3169500E2B5AD /* SmartAnalyzeViewController.swift */; };
+		6B7C527321A31ED100E2B5AD /* KMBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C527221A31ED100E2B5AD /* KMBHelper.swift */; };
+		6B9C7DB521724EB7002C0FD9 /* StarredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C7DB421724EB7002C0FD9 /* StarredViewController.swift */; };
+		6B9C7DB82172507D002C0FD9 /* StopResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C7DB72172507D002C0FD9 /* StopResultTableViewController.swift */; };
+		6B9C7DBA21725167002C0FD9 /* StopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C7DB921725167002C0FD9 /* StopViewModel.swift */; };
+		6B9F2F3F2199BF800058F524 /* EasyBusFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C02EA21759710007EA9F1 /* EasyBusFont.swift */; };
+		6B9F2F442199C3950058F524 /* StarredStopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F2F432199C3950058F524 /* StarredStopViewModel.swift */; };
+		6B9F2F452199C4550058F524 /* EtaAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C02E8217592ED007EA9F1 /* EtaAttribute.swift */; };
+		6B9F2F462199C4790058F524 /* EaasyBusColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2878BF217A3ECB00A2F4A8 /* EaasyBusColor.swift */; };
+		6B9F2F472199C4850058F524 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305752170CFFE00BD98BA /* UIColor.swift */; };
+		6B9F2F492199C5370058F524 /* EtaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAC9A92172F4BA00E86265 /* EtaModel.swift */; };
+		6B9F2F4A2199C58F0058F524 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2305852170CFFE00BD98BA /* NetworkManager.swift */; };
+		6B9F2F4D2199D4DA0058F524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2305662170CB2200BD98BA /* Assets.xcassets */; };
+		6BBBD11D21B3E2D600C0D8C4 /* StarSmartAnalyzeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBD11C21B3E2D600C0D8C4 /* StarSmartAnalyzeManager.swift */; };
+		6BBBD11F21B3E68600C0D8C4 /* SmartAnalyzeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBD11E21B3E68600C0D8C4 /* SmartAnalyzeModel.swift */; };
+		6BBBD12121B3F31F00C0D8C4 /* StarredSmartAnalyzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBD12021B3F31F00C0D8C4 /* StarredSmartAnalyzeViewController.swift */; };
+		6BC9BF3221719C3A004FC2A0 /* BusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC9BF3121719C3A004FC2A0 /* BusViewModel.swift */; };
+		6BC9BF342171A13C004FC2A0 /* BusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC9BF332171A13C004FC2A0 /* BusTableViewCell.swift */; };
+		6BCAEC0E217DF4CA005C4A97 /* DataUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCAEC0D217DF4CA005C4A97 /* DataUpdateViewController.swift */; };
+		6BCAEC10217E1FE0005C4A97 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCAEC0F217E1FE0005C4A97 /* CircleProgressView.swift */; };
+		6BD2E9A22199B7D800BC45BC /* EasyBus Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34101D8221942585002AB2FC /* EasyBus Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6BEFCC512172FC5800AFFAE1 /* EtaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFCC502172FC5800AFFAE1 /* EtaTableViewCell.swift */; };
+		6BEFCC5321730D6500AFFAE1 /* EtaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFCC5221730D6500AFFAE1 /* EtaViewModel.swift */; };
+		6BEFCC552173759300AFFAE1 /* StarredStopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFCC542173759300AFFAE1 /* StarredStopModel.swift */; };
+		6BEFCC5821737FC200AFFAE1 /* StarredManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFCC5721737FC200AFFAE1 /* StarredManager.swift */; };
+		6BEFCC5A217387B500AFFAE1 /* StarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFCC59217387B500AFFAE1 /* StarButton.swift */; };
+		6BEFCC5D21739CB700AFFAE1 /* StarredStopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFCC5C21739CB700AFFAE1 /* StarredStopViewModel.swift */; };
+		6BEFCC622174871C00AFFAE1 /* StarredEtaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFCC612174871C00AFFAE1 /* StarredEtaTableViewCell.swift */; };
+		6BF15631217B415B00A3178C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF15630217B415B00A3178C /* AboutUsViewController.swift */; };
+		6BF15633217B44E500A3178C /* AboutUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF15632217B44E500A3178C /* AboutUserViewModel.swift */; };
+		6BF15635217B597A00A3178C /* ServiceSetupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF15634217B597A00A3178C /* ServiceSetupTableViewCell.swift */; };
+		6BF8AFE7218F49DB008FB55E /* CityBusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8AFE6218F49DB008FB55E /* CityBusTableViewCell.swift */; };
+		6BFAA6BC2170D2AC00DE1C01 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAA6BB2170D2AC00DE1C01 /* SettingViewController.swift */; };
+		6BFAA6C32170D39C00DE1C01 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAA6C22170D39C00DE1C01 /* NavigationController.swift */; };
+		6BFAA6D02170D6D900DE1C01 /* KMBResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAA6CF2170D6D900DE1C01 /* KMBResultModel.swift */; };
+		6BFAA6D22170D75800DE1C01 /* KMBDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAA6D12170D75800DE1C01 /* KMBDataManager.swift */; };
+		6BFAA6E42170F81B00DE1C01 /* KMBSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAA6E02170F81B00DE1C01 /* KMBSearchViewController.swift */; };
+		6BFAA6F021710A3000DE1C01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BFAA6EF21710A3000DE1C01 /* GoogleService-Info.plist */; };
+		6BFAC9AA2172F4BA00E86265 /* EtaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAC9A92172F4BA00E86265 /* EtaModel.swift */; };
+		6BFAC9AC2172F5C100E86265 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAC9AB2172F5C100E86265 /* APIManager.swift */; };
+		BA5F42AB0B8B5C6953026FAE /* Pods_EasyBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92538A79F078E378BF9034AF /* Pods_EasyBus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BD2E9672199A8AF00BC45BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B2305512170CB1F00BD98BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34101D8121942585002AB2FC;
+			remoteInfo = "EasyBus Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34101D9221942586002AB2FC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6BD2E9A22199B7D800BC45BC /* EasyBus Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34101D69218FEEFD002AB2FC /* FoldableTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldableTitleView.swift; sourceTree = "<group>"; };
+		34101D6F21914F24002AB2FC /* KLBottomCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLBottomCardTableViewController.swift; sourceTree = "<group>"; };
+		34101D7121914F6C002AB2FC /* TimeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableTableViewController.swift; sourceTree = "<group>"; };
+		34101D75219167BE002AB2FC /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
+		34101D792191942C002AB2FC /* KLWebViewBottomCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLWebViewBottomCardViewController.swift; sourceTree = "<group>"; };
+		34101D7B21919758002AB2FC /* UINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationItem.swift; sourceTree = "<group>"; };
+		34101D8221942585002AB2FC /* EasyBus Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EasyBus Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34101D8321942586002AB2FC /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		34101D8621942586002AB2FC /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		34101D8921942586002AB2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		34101D8B21942586002AB2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34101D9521942A19002AB2FC /* EtaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtaTableViewCell.swift; sourceTree = "<group>"; };
+		341CC8A221787C5E008CFCD2 /* UserSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingViewModel.swift; sourceTree = "<group>"; };
+		341CC8A421788ED2008CFCD2 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		34579B662186B9B200FF12F0 /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		34579B68218800CA00FF12F0 /* StarredCNStopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredCNStopModel.swift; sourceTree = "<group>"; };
+		34579B6A2188012100FF12F0 /* CNStarredStopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNStarredStopViewModel.swift; sourceTree = "<group>"; };
+		349C02E8217592ED007EA9F1 /* EtaAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtaAttribute.swift; sourceTree = "<group>"; };
+		349C02EA21759710007EA9F1 /* EasyBusFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyBusFont.swift; sourceTree = "<group>"; };
+		6B1295A22180C31000DE076B /* StopMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopMonitorView.swift; sourceTree = "<group>"; };
+		6B2305592170CB1F00BD98BA /* EasyBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B23055C2170CB1F00BD98BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B2305642170CB1F00BD98BA /* EasyBus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyBus.xcdatamodel; sourceTree = "<group>"; };
+		6B2305662170CB2200BD98BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B2305692170CB2200BD98BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B23056B2170CB2200BD98BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2305732170CFFE00BD98BA /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		6B2305742170CFFE00BD98BA /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		6B2305752170CFFE00BD98BA /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6B2305762170CFFE00BD98BA /* Layoutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layoutable.swift; sourceTree = "<group>"; };
+		6B2305772170CFFE00BD98BA /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		6B2305782170CFFE00BD98BA /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6B23057A2170CFFE00BD98BA /* KLAnimatableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLAnimatableProtocol.swift; sourceTree = "<group>"; };
+		6B23057C2170CFFE00BD98BA /* KLTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLTableViewController.swift; sourceTree = "<group>"; };
+		6B23057D2170CFFE00BD98BA /* KLCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLCollectionViewController.swift; sourceTree = "<group>"; };
+		6B23057E2170CFFE00BD98BA /* BottomCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomCardViewController.swift; sourceTree = "<group>"; };
+		6B23057F2170CFFE00BD98BA /* KLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLViewController.swift; sourceTree = "<group>"; };
+		6B2305812170CFFE00BD98BA /* KLImagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLImagePageViewController.swift; sourceTree = "<group>"; };
+		6B2305822170CFFE00BD98BA /* KLImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLImageViewController.swift; sourceTree = "<group>"; };
+		6B2305832170CFFE00BD98BA /* KLPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLPickerViewController.swift; sourceTree = "<group>"; };
+		6B2305852170CFFE00BD98BA /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6B2305862170CFFE00BD98BA /* ValidatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorManager.swift; sourceTree = "<group>"; };
+		6B2305872170CFFE00BD98BA /* SharingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingManager.swift; sourceTree = "<group>"; };
+		6B2305882170CFFE00BD98BA /* KLAlertViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLAlertViewManager.swift; sourceTree = "<group>"; };
+		6B2305892170CFFE00BD98BA /* VersionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionManager.swift; sourceTree = "<group>"; };
+		6B23058A2170CFFE00BD98BA /* iOSMessageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSMessageManager.swift; sourceTree = "<group>"; };
+		6B23058B2170CFFE00BD98BA /* ScreenSizeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSizeManager.swift; sourceTree = "<group>"; };
+		6B23058D2170CFFE00BD98BA /* PaperSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperSwitch.swift; sourceTree = "<group>"; };
+		6B23058E2170CFFE00BD98BA /* LargeTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeTitleTableViewCell.swift; sourceTree = "<group>"; };
+		6B23058F2170CFFE00BD98BA /* LoadingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		6B2305902170CFFE00BD98BA /* PaddingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		6B2305912170CFFE00BD98BA /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		6B2305932170CFFE00BD98BA /* GenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
+		6B2305952170CFFE00BD98BA /* KLActivityIndicatorShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		6B2305962170CFFE00BD98BA /* KLActivityIndicatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLActivityIndicatorType.swift; sourceTree = "<group>"; };
+		6B2305972170CFFE00BD98BA /* KLActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		6B2305992170CFFE00BD98BA /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		6B2305B92170D04500BD98BA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6B262DA7217F595A00F7E3D3 /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		6B2878BB2178E2A600A2F4A8 /* kmbData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kmbData.json; sourceTree = "<group>"; };
+		6B2878BD217A0FE300A2F4A8 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		6B2878BF217A3ECB00A2F4A8 /* EaasyBusColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaasyBusColor.swift; sourceTree = "<group>"; };
+		6B58153321873720002526E2 /* CityBusStarredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusStarredViewController.swift; sourceTree = "<group>"; };
+		6B58153721875442002526E2 /* CityBusNearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusNearbyViewController.swift; sourceTree = "<group>"; };
+		6B5993432184B89E00DC0C2D /* CityBusSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusSearchViewController.swift; sourceTree = "<group>"; };
+		6B59934D2184C5F100DC0C2D /* CityBusServiceRsultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusServiceRsultViewController.swift; sourceTree = "<group>"; };
+		6B59935021853D1500DC0C2D /* CityBusStopResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusStopResultViewController.swift; sourceTree = "<group>"; };
+		6B59935221853DB300DC0C2D /* CNBusStopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNBusStopViewModel.swift; sourceTree = "<group>"; };
+		6B59935621855D8100DC0C2D /* CNBusEtaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNBusEtaModel.swift; sourceTree = "<group>"; };
+		6B599362218601B800DC0C2D /* CNBusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNBusModel.swift; sourceTree = "<group>"; };
+		6B5993642186031000DC0C2D /* CNBusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNBusViewModel.swift; sourceTree = "<group>"; };
+		6B63AC3121760336000CD919 /* EtaMonitorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtaMonitorManager.swift; sourceTree = "<group>"; };
+		6B63AC3321760A21000CD919 /* UserSettingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingManager.swift; sourceTree = "<group>"; };
+		6B63AC382176153B000CD919 /* PremissionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremissionTableViewCell.swift; sourceTree = "<group>"; };
+		6B63AC3A21761646000CD919 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		6B63AC3C21761C5F000CD919 /* ServerAdminModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAdminModel.swift; sourceTree = "<group>"; };
+		6B63AC3E2176468A000CD919 /* SettingBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingBaseTableViewCell.swift; path = EasyBus/EasyBus/Setting/view/SettingBaseTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		6B63AC422176FC4B000CD919 /* LocationDistanceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDistanceHelper.swift; sourceTree = "<group>"; };
+		6B63AC46217717AB000CD919 /* FirebaseAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalytics.swift; sourceTree = "<group>"; };
+		6B67BF7121908F9900BD1DFA /* KMBTrafficNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMBTrafficNewsController.swift; sourceTree = "<group>"; };
+		6B67BF732190902200BD1DFA /* KMBTrafficNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMBTrafficNewsModel.swift; sourceTree = "<group>"; };
+		6B6856DA217C301500304159 /* StarStyleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarStyleTableViewController.swift; sourceTree = "<group>"; };
+		6B6856DC217C31D900304159 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
+		6B6856DF217C33EF00304159 /* KLCustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLCustomTableViewController.swift; sourceTree = "<group>"; };
+		6B6856E3217C459500304159 /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		6B6856E5217C4C9B00304159 /* ButtonRemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRemindView.swift; sourceTree = "<group>"; };
+		6B6856E7217C714D00304159 /* UserLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationManager.swift; sourceTree = "<group>"; };
+		6B6856E9217C809300304159 /* NearbyStopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyStopViewModel.swift; sourceTree = "<group>"; };
+		6B751BF721A2F94E00B657AD /* GenericBottomCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericBottomCardViewController.swift; sourceTree = "<group>"; };
+		6B7630562195B1CB00609511 /* CityBusWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusWebViewController.swift; sourceTree = "<group>"; };
+		6B7C526F21A3169500E2B5AD /* SmartAnalyzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartAnalyzeViewController.swift; sourceTree = "<group>"; };
+		6B7C527221A31ED100E2B5AD /* KMBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMBHelper.swift; sourceTree = "<group>"; };
+		6B9C7DB421724EB7002C0FD9 /* StarredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredViewController.swift; sourceTree = "<group>"; };
+		6B9C7DB72172507D002C0FD9 /* StopResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopResultTableViewController.swift; sourceTree = "<group>"; };
+		6B9C7DB921725167002C0FD9 /* StopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopViewModel.swift; sourceTree = "<group>"; };
+		6B9F2F432199C3950058F524 /* StarredStopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredStopViewModel.swift; sourceTree = "<group>"; };
+		6BBBD11C21B3E2D600C0D8C4 /* StarSmartAnalyzeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarSmartAnalyzeManager.swift; sourceTree = "<group>"; };
+		6BBBD11E21B3E68600C0D8C4 /* SmartAnalyzeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartAnalyzeModel.swift; sourceTree = "<group>"; };
+		6BBBD12021B3F31F00C0D8C4 /* StarredSmartAnalyzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredSmartAnalyzeViewController.swift; sourceTree = "<group>"; };
+		6BC9BF3121719C3A004FC2A0 /* BusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewModel.swift; sourceTree = "<group>"; };
+		6BC9BF332171A13C004FC2A0 /* BusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTableViewCell.swift; sourceTree = "<group>"; };
+		6BCAEC0D217DF4CA005C4A97 /* DataUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUpdateViewController.swift; sourceTree = "<group>"; };
+		6BCAEC0F217E1FE0005C4A97 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		6BD2E9692199AA2E00BC45BC /* EasyBus Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EasyBus Widget.entitlements"; sourceTree = "<group>"; };
+		6BEFCC502172FC5800AFFAE1 /* EtaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtaTableViewCell.swift; sourceTree = "<group>"; };
+		6BEFCC5221730D6500AFFAE1 /* EtaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EtaViewModel.swift; path = EasyBus/ViewModel/KMB/EtaViewModel.swift; sourceTree = SOURCE_ROOT; };
+		6BEFCC542173759300AFFAE1 /* StarredStopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredStopModel.swift; sourceTree = "<group>"; };
+		6BEFCC5721737FC200AFFAE1 /* StarredManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredManager.swift; sourceTree = "<group>"; };
+		6BEFCC59217387B500AFFAE1 /* StarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarButton.swift; sourceTree = "<group>"; };
+		6BEFCC5C21739CB700AFFAE1 /* StarredStopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredStopViewModel.swift; sourceTree = "<group>"; };
+		6BEFCC612174871C00AFFAE1 /* StarredEtaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredEtaTableViewCell.swift; sourceTree = "<group>"; };
+		6BF15630217B415B00A3178C /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		6BF15632217B44E500A3178C /* AboutUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserViewModel.swift; sourceTree = "<group>"; };
+		6BF15634217B597A00A3178C /* ServiceSetupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceSetupTableViewCell.swift; sourceTree = "<group>"; };
+		6BF8AFE6218F49DB008FB55E /* CityBusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusTableViewCell.swift; sourceTree = "<group>"; };
+		6BFAA6BB2170D2AC00DE1C01 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6BFAA6C22170D39C00DE1C01 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		6BFAA6CF2170D6D900DE1C01 /* KMBResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMBResultModel.swift; sourceTree = "<group>"; };
+		6BFAA6D12170D75800DE1C01 /* KMBDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMBDataManager.swift; sourceTree = "<group>"; };
+		6BFAA6D52170D95500DE1C01 /* EasyBus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyBus.entitlements; sourceTree = "<group>"; };
+		6BFAA6E02170F81B00DE1C01 /* KMBSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMBSearchViewController.swift; sourceTree = "<group>"; };
+		6BFAA6EF21710A3000DE1C01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6BFAC9A92172F4BA00E86265 /* EtaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtaModel.swift; sourceTree = "<group>"; };
+		6BFAC9AB2172F5C100E86265 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		8A49D977CC79B7C60BC30233 /* Pods_EasyBus_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyBus_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAEEDF81A9D1942ECED7A06 /* Pods-EasyBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyBus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyBus/Pods-EasyBus.debug.xcconfig"; sourceTree = "<group>"; };
+		92538A79F078E378BF9034AF /* Pods_EasyBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39DAC7377D699F915F285F2 /* Pods-EasyBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyBus.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyBus/Pods-EasyBus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34101D7F21942585002AB2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34101D8421942586002AB2FC /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2305562170CB1F00BD98BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5F42AB0B8B5C6953026FAE /* Pods_EasyBus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34101D6B2191382C002AB2FC /* KMB */ = {
+			isa = PBXGroup;
+			children = (
+				6B7C526E21A3166D00E2B5AD /* Smart Analyze */,
+				34101D6C21913929002AB2FC /* Traffic News */,
+				6B9C7DB621725055002C0FD9 /* Stop Result */,
+				6B6856DE217C31E500304159 /* Nearby */,
+				6BFAA6DD2170F81000DE1C01 /* Search Bus */,
+			);
+			path = KMB;
+			sourceTree = "<group>";
+		};
+		34101D6C21913929002AB2FC /* Traffic News */ = {
+			isa = PBXGroup;
+			children = (
+				6B67BF7121908F9900BD1DFA /* KMBTrafficNewsController.swift */,
+			);
+			path = "Traffic News";
+			sourceTree = "<group>";
+		};
+		34101D8521942586002AB2FC /* EasyBus Widget */ = {
+			isa = PBXGroup;
+			children = (
+				6BD2E9692199AA2E00BC45BC /* EasyBus Widget.entitlements */,
+				34101D9521942A19002AB2FC /* EtaTableViewCell.swift */,
+				6B9F2F432199C3950058F524 /* StarredStopViewModel.swift */,
+				34101D8621942586002AB2FC /* TodayViewController.swift */,
+				34101D8821942586002AB2FC /* MainInterface.storyboard */,
+				34101D8B21942586002AB2FC /* Info.plist */,
+			);
+			path = "EasyBus Widget";
+			sourceTree = "<group>";
+		};
+		34579B652186B99D00FF12F0 /* Donate */ = {
+			isa = PBXGroup;
+			children = (
+				34579B662186B9B200FF12F0 /* DonateViewController.swift */,
+			);
+			path = Donate;
+			sourceTree = "<group>";
+		};
+		349C02E521757F9E007EA9F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B9C7DB72172507D002C0FD9 /* StopResultTableViewController.swift */,
+				34101D7121914F6C002AB2FC /* TimeTableTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		349C02E621757FAC007EA9F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B9C7DB421724EB7002C0FD9 /* StarredViewController.swift */,
+				6B6856DA217C301500304159 /* StarStyleTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		349C02E7217592D5007EA9F1 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				349C02E8217592ED007EA9F1 /* EtaAttribute.swift */,
+				349C02EA21759710007EA9F1 /* EasyBusFont.swift */,
+				6B2878BF217A3ECB00A2F4A8 /* EaasyBusColor.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		3F19F9EE035A5B61D182D1F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92538A79F078E378BF9034AF /* Pods_EasyBus.framework */,
+				34101D8321942586002AB2FC /* NotificationCenter.framework */,
+				8A49D977CC79B7C60BC30233 /* Pods_EasyBus_Widget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B2305502170CB1F00BD98BA = {
+			isa = PBXGroup;
+			children = (
+				6B23055B2170CB1F00BD98BA /* EasyBus */,
+				34101D8521942586002AB2FC /* EasyBus Widget */,
+				6B23055A2170CB1F00BD98BA /* Products */,
+				ACC25C4363A19236403C0D8D /* Pods */,
+				3F19F9EE035A5B61D182D1F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B23055A2170CB1F00BD98BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305592170CB1F00BD98BA /* EasyBus.app */,
+				34101D8221942585002AB2FC /* EasyBus Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B23055B2170CB1F00BD98BA /* EasyBus */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305712170CFFE00BD98BA /* Library */,
+				6B23055C2170CB1F00BD98BA /* AppDelegate.swift */,
+				6BFAA6DC2170F80600DE1C01 /* EasyBus */,
+				6BFAA6D72170E39200DE1C01 /* Data */,
+				6BC9BF3021719C19004FC2A0 /* ViewModel */,
+				6BFAA6CD2170D6BE00DE1C01 /* Model */,
+				6B7C527121A31EB800E2B5AD /* Helper */,
+				6BFAA6E82171052400DE1C01 /* Manager */,
+				349C02E7217592D5007EA9F1 /* Style */,
+				6BFAA6BD2170D2B800DE1C01 /* Tab bar */,
+				6B2305662170CB2200BD98BA /* Assets.xcassets */,
+				6B2305682170CB2200BD98BA /* LaunchScreen.storyboard */,
+				6BFAA6EF21710A3000DE1C01 /* GoogleService-Info.plist */,
+				6B23056B2170CB2200BD98BA /* Info.plist */,
+				6B2305632170CB1F00BD98BA /* EasyBus.xcdatamodeld */,
+				6BFAA6D52170D95500DE1C01 /* EasyBus.entitlements */,
+			);
+			path = EasyBus;
+			sourceTree = "<group>";
+		};
+		6B2305712170CFFE00BD98BA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305722170CFFE00BD98BA /* Extension */,
+				6B2305792170CFFE00BD98BA /* Protocol */,
+				6B23057B2170CFFE00BD98BA /* Controller */,
+				6B2305842170CFFE00BD98BA /* Manager */,
+				6B23058C2170CFFE00BD98BA /* View */,
+				6B2305922170CFFE00BD98BA /* Generic */,
+				6B2305942170CFFE00BD98BA /* KLActivityIndicator */,
+				6B2305982170CFFE00BD98BA /* Helper */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6B2305722170CFFE00BD98BA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305732170CFFE00BD98BA /* UIView.swift */,
+				6B2305742170CFFE00BD98BA /* NSLayoutConstraint.swift */,
+				6B2305752170CFFE00BD98BA /* UIColor.swift */,
+				6B2305762170CFFE00BD98BA /* Layoutable.swift */,
+				6B2305772170CFFE00BD98BA /* UITableView.swift */,
+				6B2305782170CFFE00BD98BA /* String.swift */,
+				34101D7B21919758002AB2FC /* UINavigationItem.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6B2305792170CFFE00BD98BA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6B23057A2170CFFE00BD98BA /* KLAnimatableProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6B23057B2170CFFE00BD98BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34101D792191942C002AB2FC /* KLWebViewBottomCardViewController.swift */,
+				6B23057C2170CFFE00BD98BA /* KLTableViewController.swift */,
+				6B23057D2170CFFE00BD98BA /* KLCollectionViewController.swift */,
+				6B23057E2170CFFE00BD98BA /* BottomCardViewController.swift */,
+				6B23057F2170CFFE00BD98BA /* KLViewController.swift */,
+				6B2305802170CFFE00BD98BA /* Page Scrolling Controller */,
+				6B751BF621A2F94E00B657AD /* Generic Bottom Card View */,
+				6B2305832170CFFE00BD98BA /* KLPickerViewController.swift */,
+				6B6856DF217C33EF00304159 /* KLCustomTableViewController.swift */,
+				34101D6F21914F24002AB2FC /* KLBottomCardTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B2305802170CFFE00BD98BA /* Page Scrolling Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305812170CFFE00BD98BA /* KLImagePageViewController.swift */,
+				6B2305822170CFFE00BD98BA /* KLImageViewController.swift */,
+			);
+			path = "Page Scrolling Controller";
+			sourceTree = "<group>";
+		};
+		6B2305842170CFFE00BD98BA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305852170CFFE00BD98BA /* NetworkManager.swift */,
+				6B2305862170CFFE00BD98BA /* ValidatorManager.swift */,
+				6B2305872170CFFE00BD98BA /* SharingManager.swift */,
+				6B2305882170CFFE00BD98BA /* KLAlertViewManager.swift */,
+				6B2305892170CFFE00BD98BA /* VersionManager.swift */,
+				6B23058A2170CFFE00BD98BA /* iOSMessageManager.swift */,
+				6B23058B2170CFFE00BD98BA /* ScreenSizeManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6B23058C2170CFFE00BD98BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B23058D2170CFFE00BD98BA /* PaperSwitch.swift */,
+				6B23058E2170CFFE00BD98BA /* LargeTitleTableViewCell.swift */,
+				6B23058F2170CFFE00BD98BA /* LoadingOverlay.swift */,
+				6B2305902170CFFE00BD98BA /* PaddingTextField.swift */,
+				6B2305912170CFFE00BD98BA /* CircleImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2305922170CFFE00BD98BA /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305932170CFFE00BD98BA /* GenericTableViewController.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		6B2305942170CFFE00BD98BA /* KLActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305952170CFFE00BD98BA /* KLActivityIndicatorShape.swift */,
+				6B2305962170CFFE00BD98BA /* KLActivityIndicatorType.swift */,
+				6B2305972170CFFE00BD98BA /* KLActivityIndicatorAnimationDelegate.swift */,
+			);
+			path = KLActivityIndicator;
+			sourceTree = "<group>";
+		};
+		6B2305982170CFFE00BD98BA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6B2305992170CFFE00BD98BA /* DateHelper.swift */,
+				6B63AC422176FC4B000CD919 /* LocationDistanceHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6B581532218736FC002526E2 /* CityBus Starred */ = {
+			isa = PBXGroup;
+			children = (
+				6B58153321873720002526E2 /* CityBusStarredViewController.swift */,
+			);
+			path = "CityBus Starred";
+			sourceTree = "<group>";
+		};
+		6B58153621875430002526E2 /* CityBus Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				6B58153721875442002526E2 /* CityBusNearbyViewController.swift */,
+			);
+			path = "CityBus Nearby";
+			sourceTree = "<group>";
+		};
+		6B5993422184B85200DC0C2D /* CityBus */ = {
+			isa = PBXGroup;
+			children = (
+				6BF8AFE5218F49BB008FB55E /* view */,
+				6B58153621875430002526E2 /* CityBus Nearby */,
+				6B581532218736FC002526E2 /* CityBus Starred */,
+				6B59934F2184CAB000DC0C2D /* Controller */,
+			);
+			path = CityBus;
+			sourceTree = "<group>";
+		};
+		6B59934F2184CAB000DC0C2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B7630562195B1CB00609511 /* CityBusWebViewController.swift */,
+				6B5993432184B89E00DC0C2D /* CityBusSearchViewController.swift */,
+				6B59934D2184C5F100DC0C2D /* CityBusServiceRsultViewController.swift */,
+				6B59935021853D1500DC0C2D /* CityBusStopResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B59935421853F8500DC0C2D /* KMB */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFCC5221730D6500AFFAE1 /* EtaViewModel.swift */,
+				6BC9BF3121719C3A004FC2A0 /* BusViewModel.swift */,
+				6B9C7DB921725167002C0FD9 /* StopViewModel.swift */,
+				6BEFCC5C21739CB700AFFAE1 /* StarredStopViewModel.swift */,
+				6B6856E9217C809300304159 /* NearbyStopViewModel.swift */,
+			);
+			path = KMB;
+			sourceTree = "<group>";
+		};
+		6B59935521853F9700DC0C2D /* City Bus */ = {
+			isa = PBXGroup;
+			children = (
+				6B5993642186031000DC0C2D /* CNBusViewModel.swift */,
+				6B59935221853DB300DC0C2D /* CNBusStopViewModel.swift */,
+				34579B6A2188012100FF12F0 /* CNStarredStopViewModel.swift */,
+			);
+			path = "City Bus";
+			sourceTree = "<group>";
+		};
+		6B59936621861F8000DC0C2D /* City Bus */ = {
+			isa = PBXGroup;
+			children = (
+				6B599362218601B800DC0C2D /* CNBusModel.swift */,
+				6B59935621855D8100DC0C2D /* CNBusEtaModel.swift */,
+				34579B68218800CA00FF12F0 /* StarredCNStopModel.swift */,
+			);
+			path = "City Bus";
+			sourceTree = "<group>";
+		};
+		6B59936721861F9500DC0C2D /* KMB */ = {
+			isa = PBXGroup;
+			children = (
+				6B67BF732190902200BD1DFA /* KMBTrafficNewsModel.swift */,
+				6BFAC9A92172F4BA00E86265 /* EtaModel.swift */,
+				6BFAA6CF2170D6D900DE1C01 /* KMBResultModel.swift */,
+				6BEFCC542173759300AFFAE1 /* StarredStopModel.swift */,
+				6BBBD11E21B3E68600C0D8C4 /* SmartAnalyzeModel.swift */,
+			);
+			path = KMB;
+			sourceTree = "<group>";
+		};
+		6B63AC352176151A000CD919 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				34579B652186B99D00FF12F0 /* Donate */,
+				6B63AC372176152A000CD919 /* view */,
+				6B63AC3621761521000CD919 /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		6B63AC3621761521000CD919 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BFAA6BB2170D2AC00DE1C01 /* SettingViewController.swift */,
+				6BF15630217B415B00A3178C /* AboutUsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B63AC372176152A000CD919 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6B63AC3E2176468A000CD919 /* SettingBaseTableViewCell.swift */,
+				6B63AC382176153B000CD919 /* PremissionTableViewCell.swift */,
+				6BF15634217B597A00A3178C /* ServiceSetupTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6B6856DE217C31E500304159 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				6B6856E2217C457B00304159 /* view */,
+				6B6856E1217C456F00304159 /* Controller */,
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		6B6856E1217C456F00304159 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B6856DC217C31D900304159 /* NearbyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B6856E2217C457B00304159 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6B6856E3217C459500304159 /* RemindView.swift */,
+				6B6856E5217C4C9B00304159 /* ButtonRemindView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6B751BF621A2F94E00B657AD /* Generic Bottom Card View */ = {
+			isa = PBXGroup;
+			children = (
+				6B751BF721A2F94E00B657AD /* GenericBottomCardViewController.swift */,
+			);
+			path = "Generic Bottom Card View";
+			sourceTree = "<group>";
+		};
+		6B7C526E21A3166D00E2B5AD /* Smart Analyze */ = {
+			isa = PBXGroup;
+			children = (
+				6B7C526F21A3169500E2B5AD /* SmartAnalyzeViewController.swift */,
+				6BBBD12021B3F31F00C0D8C4 /* StarredSmartAnalyzeViewController.swift */,
+			);
+			path = "Smart Analyze";
+			sourceTree = "<group>";
+		};
+		6B7C527121A31EB800E2B5AD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6B7C527221A31ED100E2B5AD /* KMBHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6B9C7DB321724E99002C0FD9 /* Starred */ = {
+			isa = PBXGroup;
+			children = (
+				349C02E621757FAC007EA9F1 /* Controller */,
+				6BEFCC602174870C00AFFAE1 /* view */,
+			);
+			path = Starred;
+			sourceTree = "<group>";
+		};
+		6B9C7DB621725055002C0FD9 /* Stop Result */ = {
+			isa = PBXGroup;
+			children = (
+				349C02E521757F9E007EA9F1 /* Controller */,
+				6BEFCC5B21738B3500AFFAE1 /* view */,
+			);
+			path = "Stop Result";
+			sourceTree = "<group>";
+		};
+		6BC9BF3021719C19004FC2A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B59935521853F9700DC0C2D /* City Bus */,
+				6B59935421853F8500DC0C2D /* KMB */,
+				341CC8A221787C5E008CFCD2 /* UserSettingViewModel.swift */,
+				6BF15632217B44E500A3178C /* AboutUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BCAEC0C217DF4AF005C4A97 /* Data update */ = {
+			isa = PBXGroup;
+			children = (
+				6BCAEC12217E1FF0005C4A97 /* Controller */,
+				6BCAEC11217E1FEA005C4A97 /* view */,
+			);
+			path = "Data update";
+			sourceTree = "<group>";
+		};
+		6BCAEC11217E1FEA005C4A97 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6BCAEC0F217E1FE0005C4A97 /* CircleProgressView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6BCAEC12217E1FF0005C4A97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BCAEC0D217DF4CA005C4A97 /* DataUpdateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6BEFCC5B21738B3500AFFAE1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFCC502172FC5800AFFAE1 /* EtaTableViewCell.swift */,
+				6BEFCC59217387B500AFFAE1 /* StarButton.swift */,
+				6B262DA7217F595A00F7E3D3 /* GoogleMapView.swift */,
+				34101D75219167BE002AB2FC /* TimeTableView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6BEFCC602174870C00AFFAE1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFCC612174871C00AFFAE1 /* StarredEtaTableViewCell.swift */,
+				6B1295A22180C31000DE076B /* StopMonitorView.swift */,
+				34101D69218FEEFD002AB2FC /* FoldableTitleView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6BF8AFE5218F49BB008FB55E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6BF8AFE6218F49DB008FB55E /* CityBusTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6BFAA6BD2170D2B800DE1C01 /* Tab bar */ = {
+			isa = PBXGroup;
+			children = (
+				6BFAA6C22170D39C00DE1C01 /* NavigationController.swift */,
+				6B2305B92170D04500BD98BA /* TabBarViewController.swift */,
+				6B2878BD217A0FE300A2F4A8 /* SplashViewController.swift */,
+			);
+			path = "Tab bar";
+			sourceTree = "<group>";
+		};
+		6BFAA6CD2170D6BE00DE1C01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B59936621861F8000DC0C2D /* City Bus */,
+				6B59936721861F9500DC0C2D /* KMB */,
+				6B63AC3C21761C5F000CD919 /* ServerAdminModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BFAA6D72170E39200DE1C01 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6B2878BB2178E2A600A2F4A8 /* kmbData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6BFAA6DC2170F80600DE1C01 /* EasyBus */ = {
+			isa = PBXGroup;
+			children = (
+				34101D6B2191382C002AB2FC /* KMB */,
+				6B5993422184B85200DC0C2D /* CityBus */,
+				6BCAEC0C217DF4AF005C4A97 /* Data update */,
+				6B63AC352176151A000CD919 /* Setting */,
+				6B9C7DB321724E99002C0FD9 /* Starred */,
+			);
+			path = EasyBus;
+			sourceTree = "<group>";
+		};
+		6BFAA6DD2170F81000DE1C01 /* Search Bus */ = {
+			isa = PBXGroup;
+			children = (
+				6BFAA6DE2170F81B00DE1C01 /* Controller */,
+				6BFAA6E12170F81B00DE1C01 /* View */,
+			);
+			path = "Search Bus";
+			sourceTree = "<group>";
+		};
+		6BFAA6DE2170F81B00DE1C01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BFAA6E02170F81B00DE1C01 /* KMBSearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6BFAA6E12170F81B00DE1C01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BC9BF332171A13C004FC2A0 /* BusTableViewCell.swift */,
+				341CC8A421788ED2008CFCD2 /* KeyboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BFAA6E82171052400DE1C01 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6BFAA6D12170D75800DE1C01 /* KMBDataManager.swift */,
+				6BFAC9AB2172F5C100E86265 /* APIManager.swift */,
+				6BEFCC5721737FC200AFFAE1 /* StarredManager.swift */,
+				6BBBD11C21B3E2D600C0D8C4 /* StarSmartAnalyzeManager.swift */,
+				6B63AC3121760336000CD919 /* EtaMonitorManager.swift */,
+				6B63AC3321760A21000CD919 /* UserSettingManager.swift */,
+				6B63AC3A21761646000CD919 /* AppManager.swift */,
+				6B63AC46217717AB000CD919 /* FirebaseAnalytics.swift */,
+				6B6856E7217C714D00304159 /* UserLocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		ACC25C4363A19236403C0D8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DAEEDF81A9D1942ECED7A06 /* Pods-EasyBus.debug.xcconfig */,
+				A39DAC7377D699F915F285F2 /* Pods-EasyBus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34101D8121942585002AB2FC /* EasyBus Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34101D8F21942586002AB2FC /* Build configuration list for PBXNativeTarget "EasyBus Widget" */;
+			buildPhases = (
+				34101D7E21942585002AB2FC /* Sources */,
+				34101D7F21942585002AB2FC /* Frameworks */,
+				34101D8021942585002AB2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyBus Widget";
+			productName = "EasyBus Widget";
+			productReference = 34101D8221942585002AB2FC /* EasyBus Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6B2305582170CB1F00BD98BA /* EasyBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B23056E2170CB2200BD98BA /* Build configuration list for PBXNativeTarget "EasyBus" */;
+			buildPhases = (
+				97D46A17E2C440EF9E7078A9 /* [CP] Check Pods Manifest.lock */,
+				6B2305552170CB1F00BD98BA /* Sources */,
+				6B2305562170CB1F00BD98BA /* Frameworks */,
+				6B2305572170CB1F00BD98BA /* Resources */,
+				B1E0034177EEF7D9CA6382EB /* [CP] Embed Pods Frameworks */,
+				349C02EC2175A4B1007EA9F1 /* ShellScript */,
+				1FD1FCE246BA75104CE97D6B /* [CP] Copy Pods Resources */,
+				34101D9221942586002AB2FC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BD2E9682199A8AF00BC45BC /* PBXTargetDependency */,
+			);
+			name = EasyBus;
+			productName = EasyBus;
+			productReference = 6B2305592170CB1F00BD98BA /* EasyBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B2305512170CB1F00BD98BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = KL;
+				TargetAttributes = {
+					34101D8121942585002AB2FC = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6B2305582170CB1F00BD98BA = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6B2305542170CB1F00BD98BA /* Build configuration list for PBXProject "EasyBus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B2305502170CB1F00BD98BA;
+			productRefGroup = 6B23055A2170CB1F00BD98BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B2305582170CB1F00BD98BA /* EasyBus */,
+				34101D8121942585002AB2FC /* EasyBus Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34101D8021942585002AB2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9F2F4D2199D4DA0058F524 /* Assets.xcassets in Resources */,
+				34101D8A21942586002AB2FC /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2305572170CB1F00BD98BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2878BC2178E2A600A2F4A8 /* kmbData.json in Resources */,
+				6B23056A2170CB2200BD98BA /* LaunchScreen.storyboard in Resources */,
+				6BFAA6F021710A3000DE1C01 /* GoogleService-Info.plist in Resources */,
+				6B2305672170CB2200BD98BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD1FCE246BA75104CE97D6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyBus/Pods-EasyBus-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessagingDisplay/InAppMessagingDisplayResources.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyBus/Pods-EasyBus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		349C02EC2175A4B1007EA9F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Info.plist",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		97D46A17E2C440EF9E7078A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyBus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E0034177EEF7D9CA6382EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyBus/Pods-EasyBus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyBus/Pods-EasyBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34101D7E21942585002AB2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34101D9621942A19002AB2FC /* EtaTableViewCell.swift in Sources */,
+				6B9F2F472199C4850058F524 /* UIColor.swift in Sources */,
+				34101DC221943165002AB2FC /* KMBResultModel.swift in Sources */,
+				34101DC121943004002AB2FC /* StarredStopModel.swift in Sources */,
+				6B9F2F4A2199C58F0058F524 /* NetworkManager.swift in Sources */,
+				6B9F2F492199C5370058F524 /* EtaModel.swift in Sources */,
+				6B9F2F452199C4550058F524 /* EtaAttribute.swift in Sources */,
+				6B9F2F442199C3950058F524 /* StarredStopViewModel.swift in Sources */,
+				34101DBE21942C94002AB2FC /* Layoutable.swift in Sources */,
+				6B9F2F462199C4790058F524 /* EaasyBusColor.swift in Sources */,
+				34101DBF21942C99002AB2FC /* UITableView.swift in Sources */,
+				6B9F2F3F2199BF800058F524 /* EasyBusFont.swift in Sources */,
+				34101DBD21942C90002AB2FC /* NSLayoutConstraint.swift in Sources */,
+				34101DC32194319B002AB2FC /* DateHelper.swift in Sources */,
+				34101DC021942CC2002AB2FC /* UIView.swift in Sources */,
+				34101D8721942586002AB2FC /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2305552170CB1F00BD98BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFCC622174871C00AFFAE1 /* StarredEtaTableViewCell.swift in Sources */,
+				6BFAC9AC2172F5C100E86265 /* APIManager.swift in Sources */,
+				6B2305A82170CFFE00BD98BA /* NetworkManager.swift in Sources */,
+				34579B672186B9B200FF12F0 /* DonateViewController.swift in Sources */,
+				6BBBD12121B3F31F00C0D8C4 /* StarredSmartAnalyzeViewController.swift in Sources */,
+				6BFAA6E42170F81B00DE1C01 /* KMBSearchViewController.swift in Sources */,
+				6B23059A2170CFFE00BD98BA /* UIView.swift in Sources */,
+				6B23059C2170CFFE00BD98BA /* UIColor.swift in Sources */,
+				6B2305A12170CFFE00BD98BA /* KLTableViewController.swift in Sources */,
+				6B63AC47217717AB000CD919 /* FirebaseAnalytics.swift in Sources */,
+				6B23059D2170CFFE00BD98BA /* Layoutable.swift in Sources */,
+				6B2305A52170CFFE00BD98BA /* KLImagePageViewController.swift in Sources */,
+				6BEFCC552173759300AFFAE1 /* StarredStopModel.swift in Sources */,
+				6B2305B02170CFFE00BD98BA /* LargeTitleTableViewCell.swift in Sources */,
+				6B23059F2170CFFE00BD98BA /* String.swift in Sources */,
+				6B2305A42170CFFE00BD98BA /* KLViewController.swift in Sources */,
+				6B2305B82170CFFE00BD98BA /* DateHelper.swift in Sources */,
+				6B599363218601B800DC0C2D /* CNBusModel.swift in Sources */,
+				6BF15635217B597A00A3178C /* ServiceSetupTableViewCell.swift in Sources */,
+				6BF8AFE7218F49DB008FB55E /* CityBusTableViewCell.swift in Sources */,
+				6B6856DD217C31D900304159 /* NearbyViewController.swift in Sources */,
+				34101D76219167BF002AB2FC /* TimeTableView.swift in Sources */,
+				6BEFCC5A217387B500AFFAE1 /* StarButton.swift in Sources */,
+				6B59935321853DB300DC0C2D /* CNBusStopViewModel.swift in Sources */,
+				6B9C7DB521724EB7002C0FD9 /* StarredViewController.swift in Sources */,
+				6B9C7DBA21725167002C0FD9 /* StopViewModel.swift in Sources */,
+				6BEFCC512172FC5800AFFAE1 /* EtaTableViewCell.swift in Sources */,
+				6B2305B22170CFFE00BD98BA /* PaddingTextField.swift in Sources */,
+				6B6856EA217C809300304159 /* NearbyStopViewModel.swift in Sources */,
+				6B63AC3D21761C5F000CD919 /* ServerAdminModel.swift in Sources */,
+				34101D7C21919758002AB2FC /* UINavigationItem.swift in Sources */,
+				6B2305B42170CFFE00BD98BA /* GenericTableViewController.swift in Sources */,
+				6BCAEC0E217DF4CA005C4A97 /* DataUpdateViewController.swift in Sources */,
+				34579B6B2188012100FF12F0 /* CNStarredStopViewModel.swift in Sources */,
+				6B67BF742190902200BD1DFA /* KMBTrafficNewsModel.swift in Sources */,
+				6BBBD11F21B3E68600C0D8C4 /* SmartAnalyzeModel.swift in Sources */,
+				6B6856E8217C714D00304159 /* UserLocationManager.swift in Sources */,
+				6B59935121853D1500DC0C2D /* CityBusStopResultViewController.swift in Sources */,
+				34101D7021914F24002AB2FC /* KLBottomCardTableViewController.swift in Sources */,
+				6B2305AE2170CFFE00BD98BA /* ScreenSizeManager.swift in Sources */,
+				6B2878C0217A3ECB00A2F4A8 /* EaasyBusColor.swift in Sources */,
+				6B2305A02170CFFE00BD98BA /* KLAnimatableProtocol.swift in Sources */,
+				6B2305652170CB1F00BD98BA /* EasyBus.xcdatamodeld in Sources */,
+				6B2305B72170CFFE00BD98BA /* KLActivityIndicatorAnimationDelegate.swift in Sources */,
+				6B2305B52170CFFE00BD98BA /* KLActivityIndicatorShape.swift in Sources */,
+				6B63AC432176FC4B000CD919 /* LocationDistanceHelper.swift in Sources */,
+				6B63AC392176153B000CD919 /* PremissionTableViewCell.swift in Sources */,
+				6B6856E6217C4C9B00304159 /* ButtonRemindView.swift in Sources */,
+				6BFAA6BC2170D2AC00DE1C01 /* SettingViewController.swift in Sources */,
+				6BFAA6D02170D6D900DE1C01 /* KMBResultModel.swift in Sources */,
+				6B262DA8217F595A00F7E3D3 /* GoogleMapView.swift in Sources */,
+				6B7C527021A3169500E2B5AD /* SmartAnalyzeViewController.swift in Sources */,
+				6B9C7DB82172507D002C0FD9 /* StopResultTableViewController.swift in Sources */,
+				6BFAA6D22170D75800DE1C01 /* KMBDataManager.swift in Sources */,
+				6B2305A32170CFFE00BD98BA /* BottomCardViewController.swift in Sources */,
+				6B2305BA2170D04500BD98BA /* TabBarViewController.swift in Sources */,
+				6BC9BF3221719C3A004FC2A0 /* BusViewModel.swift in Sources */,
+				6B5993442184B89E00DC0C2D /* CityBusSearchViewController.swift in Sources */,
+				6B63AC3F2176468A000CD919 /* SettingBaseTableViewCell.swift in Sources */,
+				34101D7221914F6C002AB2FC /* TimeTableTableViewController.swift in Sources */,
+				6B6856DB217C301500304159 /* StarStyleTableViewController.swift in Sources */,
+				6B2305B32170CFFE00BD98BA /* CircleImageView.swift in Sources */,
+				6B751BF821A2F94E00B657AD /* GenericBottomCardViewController.swift in Sources */,
+				6BF15633217B44E500A3178C /* AboutUserViewModel.swift in Sources */,
+				6BEFCC5D21739CB700AFFAE1 /* StarredStopViewModel.swift in Sources */,
+				6B6856E4217C459500304159 /* RemindView.swift in Sources */,
+				6B63AC3421760A21000CD919 /* UserSettingManager.swift in Sources */,
+				349C02E9217592ED007EA9F1 /* EtaAttribute.swift in Sources */,
+				6B7630572195B1CB00609511 /* CityBusWebViewController.swift in Sources */,
+				6B2305AC2170CFFE00BD98BA /* VersionManager.swift in Sources */,
+				6BBBD11D21B3E2D600C0D8C4 /* StarSmartAnalyzeManager.swift in Sources */,
+				34101D7A2191942C002AB2FC /* KLWebViewBottomCardViewController.swift in Sources */,
+				6B59934E2184C5F100DC0C2D /* CityBusServiceRsultViewController.swift in Sources */,
+				6B23059E2170CFFE00BD98BA /* UITableView.swift in Sources */,
+				6B23055D2170CB1F00BD98BA /* AppDelegate.swift in Sources */,
+				349C02EB21759710007EA9F1 /* EasyBusFont.swift in Sources */,
+				341CC8A521788ED2008CFCD2 /* KeyboardView.swift in Sources */,
+				6B2305AB2170CFFE00BD98BA /* KLAlertViewManager.swift in Sources */,
+				34579B69218800CA00FF12F0 /* StarredCNStopModel.swift in Sources */,
+				6B1295A32180C31000DE076B /* StopMonitorView.swift in Sources */,
+				6B2305A22170CFFE00BD98BA /* KLCollectionViewController.swift in Sources */,
+				6B58153821875442002526E2 /* CityBusNearbyViewController.swift in Sources */,
+				6B59935721855D8100DC0C2D /* CNBusEtaModel.swift in Sources */,
+				34101D6A218FEEFD002AB2FC /* FoldableTitleView.swift in Sources */,
+				6B2878BE217A0FE300A2F4A8 /* SplashViewController.swift in Sources */,
+				6B2305AD2170CFFE00BD98BA /* iOSMessageManager.swift in Sources */,
+				6B23059B2170CFFE00BD98BA /* NSLayoutConstraint.swift in Sources */,
+				6B58153421873720002526E2 /* CityBusStarredViewController.swift in Sources */,
+				6B2305A92170CFFE00BD98BA /* ValidatorManager.swift in Sources */,
+				6B2305A72170CFFE00BD98BA /* KLPickerViewController.swift in Sources */,
+				6BFAC9AA2172F4BA00E86265 /* EtaModel.swift in Sources */,
+				6B63AC3221760336000CD919 /* EtaMonitorManager.swift in Sources */,
+				6B2305B62170CFFE00BD98BA /* KLActivityIndicatorType.swift in Sources */,
+				6B63AC3B21761646000CD919 /* AppManager.swift in Sources */,
+				6B2305AF2170CFFE00BD98BA /* PaperSwitch.swift in Sources */,
+				6B67BF7221908F9900BD1DFA /* KMBTrafficNewsController.swift in Sources */,
+				341CC8A321787C5E008CFCD2 /* UserSettingViewModel.swift in Sources */,
+				6B6856E0217C33EF00304159 /* KLCustomTableViewController.swift in Sources */,
+				6BEFCC5821737FC200AFFAE1 /* StarredManager.swift in Sources */,
+				6B2305AA2170CFFE00BD98BA /* SharingManager.swift in Sources */,
+				6BFAA6C32170D39C00DE1C01 /* NavigationController.swift in Sources */,
+				6B2305A62170CFFE00BD98BA /* KLImageViewController.swift in Sources */,
+				6BC9BF342171A13C004FC2A0 /* BusTableViewCell.swift in Sources */,
+				6B7C527321A31ED100E2B5AD /* KMBHelper.swift in Sources */,
+				6BF15631217B415B00A3178C /* AboutUsViewController.swift in Sources */,
+				6B2305B12170CFFE00BD98BA /* LoadingOverlay.swift in Sources */,
+				6BEFCC5321730D6500AFFAE1 /* EtaViewModel.swift in Sources */,
+				6B5993652186031100DC0C2D /* CNBusViewModel.swift in Sources */,
+				6BCAEC10217E1FE0005C4A97 /* CircleProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BD2E9682199A8AF00BC45BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34101D8121942585002AB2FC /* EasyBus Widget */;
+			targetProxy = 6BD2E9672199A8AF00BC45BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34101D8821942586002AB2FC /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34101D8921942586002AB2FC /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		6B2305682170CB2200BD98BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2305692170CB2200BD98BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34101D9021942586002AB2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "EasyBus Widget/EasyBus Widget.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 26Z79RZT8A;
+				INFOPLIST_FILE = "EasyBus Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KL.EasyBus.EasyBus-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EasyBusWidgetDevPP;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34101D9121942586002AB2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "EasyBus Widget/EasyBus Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 26Z79RZT8A;
+				INFOPLIST_FILE = "EasyBus Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KL.EasyBus.EasyBus-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EasyBusWidgetProPP;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B23056C2170CB2200BD98BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B23056D2170CB2200BD98BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B23056F2170CB2200BD98BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAEEDF81A9D1942ECED7A06 /* Pods-EasyBus.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyBus/EasyBus.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 26Z79RZT8A;
+				INFOPLIST_FILE = EasyBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KL.EasyBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "EasyBus Dev PP";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B2305702170CB2200BD98BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39DAC7377D699F915F285F2 /* Pods-EasyBus.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyBus/EasyBus.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 26Z79RZT8A;
+				INFOPLIST_FILE = EasyBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KL.EasyBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "EasyBus Pro PP";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34101D8F21942586002AB2FC /* Build configuration list for PBXNativeTarget "EasyBus Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34101D9021942586002AB2FC /* Debug */,
+				34101D9121942586002AB2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2305542170CB1F00BD98BA /* Build configuration list for PBXProject "EasyBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B23056C2170CB2200BD98BA /* Debug */,
+				6B23056D2170CB2200BD98BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B23056E2170CB2200BD98BA /* Build configuration list for PBXNativeTarget "EasyBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B23056F2170CB2200BD98BA /* Debug */,
+				6B2305702170CB2200BD98BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B2305632170CB1F00BD98BA /* EasyBus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B2305642170CB1F00BD98BA /* EasyBus.xcdatamodel */,
+			);
+			currentVersion = 6B2305642170CB1F00BD98BA /* EasyBus.xcdatamodel */;
+			path = EasyBus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B2305512170CB1F00BD98BA /* Project object */;
+}
