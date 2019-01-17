@@ -19,7 +19,7 @@ This project includes different coding styles and design patterns for practice p
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ### Buy me a coffee
-If you have made a donation, you can send an [email](me@klhui.hk) to me and make a request of adding new features.
+If you have made a donation, you can send an [email](me@klhui.hk) to me and make a request of adding new features.<br />
 [![Paypel](resources/paypel.png)](https://paypal.me/klhui)
 ### For HK only, please use mobile to open the link:
 [![Payme](resources/payme.png)](https://qr.payme.hsbc.com.hk/1/41KKbzAWSEVFAYo4bm3USE)
