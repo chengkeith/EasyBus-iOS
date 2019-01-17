@@ -20,10 +20,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Buy me a coffee
 If you have made a donation, you can send an [email](me@klhui.hk) to me and make a request of adding new features.
-* [![Paypel](resources/paypel.png)](https://paypal.me/klhui)
-### For HK, please mobile to open the link:
-* [![Payme](resources/payme.png)](https://qr.payme.hsbc.com.hk/1/41KKbzAWSEVFAYo4bm3USE)
-* [![Alipay](resources/alipay.png)](https://qr.alipay.hk/2810040101qxqdqcdcvwkvof68)
+[![Paypel](resources/paypel.png)](https://paypal.me/klhui)
+### For HK only, please use mobile to open the link:
+[![Payme](resources/payme.png)](https://qr.payme.hsbc.com.hk/1/41KKbzAWSEVFAYo4bm3USE)
+[![Alipay](resources/alipay.png)](https://qr.alipay.hk/2810040101qxqdqcdcvwkvof68)
 
 
 ### Development progress
